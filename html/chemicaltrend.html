@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="../css/containers.css">
+<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+<body>
+<div id="container-container" class="container">
+    <div id="left-container">
+        <div id="pie-container" class="container map">
+            <svg id="piechart"></svg>
+        </div>
+        <div id="cluster-container" class="container">
+            <svg id="cluster"></svg>
+        </div>
+        <div style="clear:both;"></div>
+        <div id="detail-container" class="container" style="width:828px; height:480px">
+        </div>
+    </div>
+    <div id="trend-container" class="container magnifier-container">
+        <div id="input-container">
+
+        </div>
+        <br>
+        <svg id="trend" width="999" height="400"></svg>
+    </div>
+</div>
+<script type="text/javascript" src="../js/trend.js"></script>
+<script type="text/javascript" src="../js/piechart.js"></script>
+<script type="text/javascript" src="../js/detail.js"></script>

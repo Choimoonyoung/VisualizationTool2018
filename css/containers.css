@@ -1,0 +1,144 @@
+text {
+    font: 10px sans-serif;
+}
+
+label {
+    font-size: 50px;
+}
+
+.container {
+    border: none;
+}
+
+#pie-container {
+    float: left;
+    width: 480px;
+    height: 480px;
+    display: inline-block;
+    padding: 0;
+}
+
+#cluster-container {
+    float: left;
+    width: 348px;
+    height: 480px;
+    padding: 0;
+    display: inline-block;
+    overflow: scroll;
+}
+
+#correl-container {
+    float: none;
+    width: 828px;
+    height: 475px;
+    padding: 0;
+    display: inline-block;
+}
+
+#left-container {
+    float: left;
+    width: 829px;
+    height: 100%;
+    padding: 0;
+    display: inline-block;
+}
+
+#trend-container {
+    float: left;
+    width: 1004px;
+    height: 100%;
+    padding: 0;
+    overflow: scroll;
+    display: inline-block;
+}
+
+#container-container {
+    width: 1835px;
+    height: 960px;
+}
+
+#input-container {
+
+}
+
+path.invisible {
+    stroke-width: 0px !important;
+}
+
+path {
+    stroke-width: 1px;
+}
+
+circle.invisible {
+    stroke-width: 0px !important;
+}
+
+circle {
+    stroke-width: 1px;
+}
+
+rect.btnA.selected {
+    fill: blue !important;
+    stroke-width: 10px;
+}
+
+rect.btnB.selected {
+    fill: red !important;
+    stroke-width: 10px;
+}
+
+text.txtA.selected {
+    fill: white !important;
+    /*stroke-width: 10px;*/
+}
+
+text.txtB.selected {
+    fill: white !important;
+    /*stroke-width: 10px;*/
+}
+
+.map {
+    width: 480px;
+    height: 480px;
+    background-image: url('../data/Waterways Final.jpg');
+    background-size: 580px;
+    background-position: center;
+    float: left;
+}
+.tooltip{
+  position : absolute;
+  z-index: 10;
+  font-size:15px;
+  background-color: #e53a40;
+  border-radius:5px;
+}
+.fixed{
+  position : absolute;
+  z-index: 10;
+  font-size:15px;
+  background-color: #e53a40;
+  border-radius:5px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: orange;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
